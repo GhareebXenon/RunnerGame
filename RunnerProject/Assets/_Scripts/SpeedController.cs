@@ -6,12 +6,21 @@ public class SpeedController : MonoBehaviour
     public PlayerButtonInput input;
 
     public float maxAnimatorSpeed = 2f;
+    public float dampTime = 0.25f; // THIS is the magic
+    public float animSpeedMultiplier = 0.5f;
 
     void Update()
     {
-        float animSpeed = input.GetSpeed01() * maxAnimatorSpeed;
+        float targetSpeed = input.GetSpeed01() * maxAnimatorSpeed;
 
-        animator.SetFloat("Speed", animSpeed);
-        animator.speed = 1f + animSpeed * 0.5f;
+        // Smoothly blends between walk  run
+        animator.SetFloat("Speed", targetSpeed, dampTime, Time.deltaTime);
+
+        // Smooth animation playback speed
+        animator.speed = Mathf.Lerp(
+            animator.speed,
+            1f + targetSpeed * animSpeedMultiplier,
+            Time.deltaTime * 5f
+        );
     }
 }
