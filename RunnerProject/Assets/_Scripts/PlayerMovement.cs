@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public PlayerButtonInput input;
+    public PlayerButtonInputEsp input;
     public float maxSpeed = 6f;
 
     bool canMove = true;
@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (!canMove) return;
 
-        float speed = input.GetSpeed01() * maxSpeed;
+        float speed = input.GetSpeed02() * maxSpeed;
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 

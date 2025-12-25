@@ -3,7 +3,7 @@ using UnityEngine;
 public class SpeedController : MonoBehaviour
 {
     public Animator animator;
-    public PlayerButtonInput input;
+    public PlayerButtonInputEsp input;
 
     public float maxAnimatorSpeed = 2f;
     public float dampTime = 0.25f; // THIS is the magic
@@ -11,7 +11,7 @@ public class SpeedController : MonoBehaviour
 
     void Update()
     {
-        float targetSpeed = input.GetSpeed01() * maxAnimatorSpeed;
+        float targetSpeed = input.GetSpeed02() * maxAnimatorSpeed;
 
         // Smoothly blends between walk  run
         animator.SetFloat("Speed", targetSpeed, dampTime, Time.deltaTime);
