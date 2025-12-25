@@ -8,161 +8,30 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: RushDriver-Italic SDF Material
-  m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_Parent: {fileID: -6290129960032117830, guid: 4de36e79dbe825a418adeb2c0d0694bf, type: 2}
-  m_ModifiedSerializedProperties: 16
+  m_Shader: {fileID: 207, guid: 0000000000000000f000000000000000, type: 0}
+  m_Parent: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _ALPHABLEND_ON
-  - _CHROMATIC_ON
+  - _HEXGRID_ON
+  - _INTERFACE_ON
   - _RIM_ON
-  - _SQUAREGRID_ON
+  - _SCANLINE_ON
+  - _SCANNING_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _RimColor
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 5441440531977502026, guid: 4de36e79dbe825a418adeb2c0d0694bf, type: 2}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - _BandingContrast: 1.4
-    - _BandingSaturation: 1.2
-    - _BeamCount: 4
-    - _BeamSpeed: 2.5
-    - _BeamWidth: 0.08
-    - _ChromaticIntensity: 0.05
-    - _ChromaticOffset: 0.5
-    - _CircuitIntensity: 0.4
-    - _CircuitSpeed: 0.5
-    - _ColorBands: 5
-    - _ColorShiftHue: 0.8
-    - _ColorShiftIntensity: 0.6
-    - _ColorShiftSpeed: 1.5
-    - _DataStreamDensity: 3
-    - _DataStreamGlow: 1.3
-    - _DataStreamIntensity: 0.8
-    - _DataStreamSpeed: 1.2
-    - _DataStreamTiling: 1.5
-    - _DepthDistance: 2
-    - _DistortionAnimation: 2
-    - _DistortionIntensity: 0.1
-    - _DistortionSpeed: 1
-    - _DistortionTiling: 2
-    - _EdgeEmission: 1.8
-    - _EdgePower: 1.5
-    - _EdgeSharpness: 6
-    - _EdgeThickness: 0.02
-    - _EmissionIntensity: 1.5
-    - _EmissionPulse: 0.3
-    - _EnableBeam: 0
-    - _EnableChromatic: 1
-    - _EnableCircuit: 0
-    - _EnableColorBanding: 0
-    - _EnableColorShift: 0
-    - _EnableDataStream: 0
-    - _EnableDepth: 0
-    - _EnableDistortion: 0
-    - _EnableEdges: 0
-    - _EnableEmission: 0
-    - _EnableFresnel: 0
-    - _EnableGlitch: 0
-    - _EnableHexGrid: 0
-    - _EnableInterface: 0
-    - _EnableLines: 0
-    - _EnableNoise: 0
-    - _EnableProjection: 0
-    - _EnablePulse: 0
-    - _EnableRim: 1
-    - _EnableScanLine: 0
-    - _EnableScanning: 0
-    - _EnableSquareGrid: 1
-    - _EnableVignette: 0
-    - _EnableVolumetric: 0
-    - _EnableWireframe: 0
-    - _FlickerPattern: 0
-    - _FresnelColorVariation: 0
-    - _FresnelIntensity: 0.8
-    - _FresnelPower: 1.5
-    - _GlitchColorIntensity: 0.2
-    - _GlitchDistortion: 0.15
-    - _GlitchFrequency: 5
-    - _GlitchIntensity: 0.15
-    - _GlitchJump: 0.15
-    - _GlitchSpeed: 5
-    - _HexEmission: 1.2
-    - _HexIntensity: 0.2
-    - _HexSize: 15
-    - _HologramFlickerIntensity: 0.1
-    - _HologramFlickerSpeed: 2
-    - _HologramIntensity: 1.4
-    - _HologramOpacity: 0.7
-    - _InterfaceGlow: 1.2
-    - _InterfaceIntensity: 0.7
-    - _InterfaceScrollX: 0.1
-    - _InterfaceScrollY: 0.05
-    - _InterfaceSpeed: 0.4
-    - _InterfaceTiling: 1.5
-    - _LineIntensity: 0.15
-    - _LineSpacing: 35
-    - _LineSpeed: 0.5
-    - _LineWidth: 0.6
-    - _NoiseContrast: 1.2
-    - _NoiseIntensity: 0.05
-    - _NoiseSpeed: 1
-    - _NoiseTiling: 2
-    - _ProjectionFlicker: 0.15
-    - _ProjectionHeight: 1.5
-    - _ProjectionIntensity: 1.2
-    - _ProjectionSpread: 0.6
-    - _PulseAmplitude: 0.3
-    - _PulseSpeed: 1.5
-    - _RimFlutter: 0.05
-    - _RimFlutterSpeed: 1
-    - _RimIntensity: 1
-    - _RimPower: 2.5
-    - _ScanLineAmount: 25
-    - _ScanLineDeform: 0.05
-    - _ScanLineSpeed: 0.8
-    - _ScanLineWidth: 0.05
-    - _ScanningSpeed: 1
-    - _ShaderType: 0
-    - _SquareEdgeWidth: 0.05
-    - _SquareIntensity: 0.3
-    - _SquareSize: 30
-    - _VignetteIntensity: 0.6
-    - _VignettePower: 2.5
-    - _VolumetricIntensity: 1.2
-    - _WireframeDensity: 2
-    - _WireframeSmoothing: 0.02
-    - _WireframeThickness: 0.03
-    m_Colors:
-    - _BeamColor: {r: 1, g: 0.3, b: 0.3, a: 1}
-    - _CircuitColor: {r: 0.3, g: 0.6, b: 0.9, a: 1}
-    - _Color: {r: 0.6760459, g: 0, b: 1, a: 0.7}
-    - _DataStreamColor: {r: 0.9, g: 0.5, b: 0, a: 1}
-    - _DataStreamScrollDir: {r: 0, g: 1, b: 0, a: 0}
-    - _EdgeColor: {r: 0, g: 0.9, b: 0.7, a: 1}
-    - _EmissionColor: {r: 1, g: 0.2, b: 0.2, a: 1}
-    - _FresnelColor: {r: 0, g: 0.5, b: 1, a: 1}
-    - _HexColor: {r: 1, g: 0.2, b: 0.2, a: 1}
-    - _InterfaceColor: {r: 1, g: 0.3, b: 0.3, a: 1}
-    - _LineColor: {r: 0.2, g: 0.85, b: 1, a: 1}
-    - _ProjectionColor: {r: 0.1, g: 0.7, b: 1, a: 0.4}
-    - _PulseColor: {r: 0.7, g: 0.1, b: 0.8, a: 1}
-    - _RimColor: {r: 0.9, g: 0.3, b: 0.5, a: 1}
-    - _ScanLineColor: {r: 0.1, g: 0.8, b: 1, a: 1}
-    - _SquareColor: {r: 0.1, g: 0.8, b: 0.8, a: 1}
-    - _VignetteColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-    - _VolumetricColor: {r: 0.8, g: 0.6, b: 0.1, a: 0.3}
-    - _WireframeColor: {r: 0.4, g: 0.4, b: 0.9, a: 1}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &11400000
@@ -175,7 +44,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
-  m_Name: RushDriver-Italic SDF Material
+  m_Name: RushDriver-Italic SDF Material 1
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TMP_FontAsset
   m_Version: 1.1.0
   m_FaceInfo:
