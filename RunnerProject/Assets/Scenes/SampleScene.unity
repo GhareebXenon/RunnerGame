@@ -3094,16 +3094,16 @@ PrefabInstance:
       addedObject: {fileID: 1290033727}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1290033729}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1290033730}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1290033731}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1290033732}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1290033729}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1290033730}
   m_SourcePrefab: {fileID: 100100000, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
 --- !u!1 &1290033722 stripped
 GameObject:
@@ -6042,16 +6042,16 @@ PrefabInstance:
       addedObject: {fileID: 2023602714}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2023602716}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2023602717}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2023602718}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2023602719}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2023602716}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2023602717}
   m_SourcePrefab: {fileID: 100100000, guid: 35de0b9e1a3b815478eab57e387514a7, type: 3}
 --- !u!1 &2023602709 stripped
 GameObject:
@@ -6125,7 +6125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c3b00b6ddf1f574b9874209f037274e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  input: {fileID: 1290033731}
+  input: {fileID: 2023602718}
   maxSpeed: 2
 --- !u!4 &2023602715 stripped
 Transform:
